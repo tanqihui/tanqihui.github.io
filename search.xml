@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[CSS引入方式与选择器]]></title>
+    <title><![CDATA[MarkDown常用语法]]></title>
     <url>%2F%2Fblog%2FMarkDown%20%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95.html</url>
     <content type="text"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为了让自己的博客变得赏心悦目，我学习了MarkDown语法，记下这些常用语法，以备查阅。[标题]标题设置（也就是让文本字体增大），有两种方式： 在文字开头加上 “#”(去掉引号)和一个空格；总共有6档(“#”越多字体越小) 通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。 [段落]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;段落的前后要有空行，所谓的空行是指没有文字内容。若想在段内强制换行的方式是使用两个或以上空格加上回车(引用中换行省略回车)。[块注释(引用)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通过在文字开头添加“&gt;”表示块注释。（当&gt;和文字之间添加五个空格时，块注释的文字会有变化。）[首行缩进]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因为markdown语法主要考虑的是英文，所以对于中文的首行缩进并不太友好，目前有两种方法可以完美解决这个问题。 把输入法由半角改为全角。 两次空格之后就能够有两个汉字的缩进。 在开头的时候，先输入下面的代码，然后紧跟着输入文本即可。分号也不要掉。直接写: &amp; ensp;或&amp; #8194;(去掉空格) &amp; emsp;或&amp; #8195; &amp; nbsp;或&amp; #160; [粗体和斜体] 文字两端使用两个个“*”或者“_”夹起来（粗体） 文字两端使用一个“*”或者“_”夹起来(斜体) [列表] 无序：在文字开头添加(*, +, and -)实现无序列表。(注意符号后面要加空格) 有序：使用数字后面跟上句号。如： 1. 2. 3. [代码块]形如：\123 你的代码\ [行内代码]使用两个``把代码包裹起来形如：`代码`效果 ： 这是一个你的代码 [链接]####链接可以由两种形式生成：行内式和参考式。 使用[](link &quot;Optional title&quot;)表示行内链接。其中 []内的内容为要添加链接的文字 link为链接地址 Optional title为显示标题。显示效果为在你将鼠标放到链接上后，会显示一个小框提示，提示的内容就是Optional title里的内容。 参考式链接： [JavaScript | MDN][1] [ECMAScript 6 入门 阮一峰][2] [InfoQ JavaScript][3] [1]:http://developer.mozilla.org/zh-CN/docs/Web/JavaScript [2]:http://es6.ruanyifeng.com/ [3]:http://www.infoq.com/cn/javascript/?utm_source=infoq&amp;utm_medium=header_graybar&amp;utm_campaign=topic_clk [图片]插入图片与插入链接的语法很像，区别在一个!号，而且也有行内式和参考式两种。插入图片语法为：![Alt text](/path/to/img.jpg &quot;Optional title&quot;) Optional title为显示标题。显示效果为在你将鼠标放到图片上后，会显示一个小框提示，提示的内容就是Optional title。 [表格] —-:为右对齐 :—-为左对齐 :—:为居中对齐 —–为默认左对齐 一般格式为这样：12345| 序号 | 项目1 | 项目2 || ------ |:-------------:| -----:|| 1 | | || 2 | | || 3 | | | [分割线]分割线最常使用就是三个或以上，还可以使用-和_例如：**、—、_ [转义]使用反斜杠\进行转义。123456789101112\ 反斜线` 反引号* 星号_ 底线&#123;&#125; 花括号[] 方括号() 括弧# 井字号+ 加号- 减号. 英文句点! 惊叹号 [删除线]使用~~表示删除线。 例如：这是一条删除线 [注脚]使用[^footer1]表示注脚。例如：12这是一个注脚测试[^footer1][^footer1]: 这是一个测试，用来阐释注脚。 [标签]使用标签:或者Tags:表示标签标记。 本文参考： Markdown，你只需要掌握这几个 markdown在博客园的使用 Markdown 基本语法 Markdown——入门指南 Markdown语法说明(简体中文版)]]></content>
       <categories>
@@ -10,11 +10,6 @@
       <tags>
         <tag>MarkDown</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello MyBlog]]></title>
-    <url>%2F%2Fblog%2Fhello-world.html</url>
-    <content type="text"><![CDATA[花了两天时间经历了各种坑，尝试无数种主题还是选择了简洁清爽的Next，最终弄好了这个博客。 Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
   <entry>
     <title><![CDATA[CSS引入方式与选择器]]></title>
