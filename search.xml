@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[git命令速查表]]></title>
     <url>%2F%2Fblog%2Fgit%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8.html</url>
-    <content type="text"><![CDATA[git使用小技巧git是一款程序猿必备的版本控制工具，然而想用好它还需要记住很多命令，在此记录一些常用命令以备查阅。话不多说，直接上干货： 本文源自：git cheat sheet]]></content>
+    <content type="text"><![CDATA[git使用小技巧git是一款程序猿必备的版本控制工具，然而想用好它还需要记住很多命令，在此记录一些常用命令以备查阅。话不多说，直接上干货 本文源自：git cheat sheet]]></content>
       <categories>
         <category>工具</category>
       </categories>
